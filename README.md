@@ -1,3 +1,5 @@
+# Docker Commands
+
 ## docker build -t ["image_names"] .
 
 > To create and build images
@@ -22,10 +24,10 @@
 
 > docker pull ["repo/image_name"]
 
-# docker pull/run ["image"]
+## docker pull/run ["image"]
 
 > docker run ubuntu
 
-# docker run -it ["image_name"]
+## docker run -it ["image_name"]
 
 > to run container of image (-it means interative)
