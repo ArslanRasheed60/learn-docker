@@ -39,3 +39,15 @@
 ## docker exec -it ["container_id"] bash
 
 > to start bach inside a container
+
+## docker image prune
+
+> to remove all dangling images
+
+## docker container prune
+
+> to remove all dangling containers
+
+## docker image save -o ["Filename.zip"] ["Image_name:version"]
+
+> save an image locally
