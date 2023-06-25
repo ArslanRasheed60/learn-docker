@@ -31,3 +31,11 @@
 ## docker run -it ["image_name"]
 
 > to run container of image (-it means interative)
+
+## docker start -i ["container_id"]
+
+> to start a container
+
+## docker exec -it ["container_id"] bash
+
+> to start bach inside a container
