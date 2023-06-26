@@ -85,4 +85,22 @@
 
 > create new volume to store data outside of the containers
 >
-> - docker volume inspect ["volume_name"]
+> ### docker volume inspect ["volume_name"]
+
+### docker run -d -p 4000:3000 -v ["volume_name"]:/app/data ["image_name"]
+
+> create and run volume inside container
+>
+> in app/data directly volume will be created and remains persistant though out multiple containers
+>
+> docker run -d -p 4000:3000 -v $(pwd):/app ["image_name"]
+>
+> if we are in development we don't need to create image again and again (sharing working directory)
+
+### docker cp ["container_name/id"]:/app/log.txt .
+
+> copy file from container to the host current directory
+
+### docker cp ["file_name"] ["container_name/id"]:/app
+
+> copy file from source host to destination container
