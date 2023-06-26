@@ -43,6 +43,7 @@
 ## docker logs ["container_id"]
 
 > to run output of the container of the which was running in the backgroud
+>
 > for help "docker logs --help"
 
 ## docker start -i ["container_id"]
@@ -68,11 +69,20 @@
 ## docker run -d -p 80:8000 --name ["container_name"] ["image_name"]
 
 > publishing ports of the host to the containers
-> 80 represents the host and 8000 represents the container
-> -d is for detach (optional)
-> -p for port
-> --name (optional)
+>
+> - 80 represents the host and 8000 represents the container
+> - -d is for detach (optional)
+> - -p for port
+> - --name (optional)
 
 ## docker start/stop ["container_name/id"]
 
 > to start or stop an existing container.
+
+# VOLUME
+
+## docker volume create ["volume_name"]
+
+> create new volume to store data outside of the containers
+>
+> - docker volume inspect ["volume_name"]
