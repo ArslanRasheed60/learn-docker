@@ -104,3 +104,11 @@
 ### docker cp ["file_name"] ["container_name/id"]:/app
 
 > copy file from source host to destination container
+
+# Docker Compose
+
+> file will be "docker-compose.yml"
+>
+> ## docker-compose up/down
+>
+> - To start/stop all containers or servicecs
